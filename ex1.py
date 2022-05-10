@@ -11,7 +11,7 @@ a_text = 'In computing, a hash table hash map is a data structure which implemen
 
 def countDistinctWords(text):
     pattern = re.compile('[^\w\s]+')
-    text = pattern.sub('', text)
+    text = pattern.sub('', text).lower()
     return dict(Counter(text.split(" ")))
     
 print(countDistinctWords(a_text))
