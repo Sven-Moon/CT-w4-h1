@@ -3,7 +3,7 @@
 # Hint: Linear Searching will require searching a list for a given number.
 
 nums_list = [10,23,45,70,11,15]
-target = 70
+target = 71
 
 # If number is not present return -1
 def linearSearch(arr, t):
